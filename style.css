@@ -1,0 +1,256 @@
+header {
+  height: 80px; /* Sesuaikan tinggi header */
+}
+
+.navbar-brand {
+  padding-top: 15px; /* Sesuaikan jarak atas logo */
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar-nav .nav-link.active {
+  color: #007bff;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand img {
+    width: 5px; /* Sesuaikan ukuran logo untuk layar kecil */
+  }
+}
+
+/* main */
+body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .section-header {
+    background-image: url("img/hero-banner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+  }
+  
+  .section-header::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .section-header h1 {
+    color: #fff;
+  }
+  
+  .section-header .btn-primary {
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  .section-featured-products {
+    padding: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media (max-width: 991px) {
+    .section-header {
+      height: 300px;
+    }
+  
+    .section-featured-products {
+      padding: 1rem;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  
+    .section-contact {
+      text-align: center;
+    }
+  
+    .card-body {
+      padding: 1rem;
+    }
+  
+    h1, h2, h5, p {
+      font-size: 1.2rem;
+    }
+  
+    .btn-primary {
+      width: 100%;
+    }
+  }
+  
+  .card {
+    margin: 1rem;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  .section-about-us {
+    background-color: #fff;
+    padding: 3rem 0;
+  }
+  
+  .section-contact {
+    background-color: #fff;
+    padding: 3rem 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #0069d9;
+  }
+
+  
+  /* footer */
+
+  
+  /* produk */
+  body {
+    font-family: sans-serif;
+  }
+  
+  .product-card {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .product-card img {
+    width: 100%;
+  }
+  
+  .product-card h2 {
+    font-size: 18px;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+  }
+  
+  .product-card button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* card */
+  .product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    width: 250px;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .product-card img {
+    width: 100%;
+  }
+  
+  .product-card h2 {
+    font-size: 18px;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+  }
+  
+  .product-card button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+/* contact */
+#contact {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info h3 {
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
